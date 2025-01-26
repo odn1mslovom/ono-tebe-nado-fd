@@ -12,8 +12,10 @@
 </head>
 
 <body>
+
   <!-- header -->
   <header class="header">
+
     <!-- navigation block -->
     <nav class="header__menu">
       <ul class="header__links-list">
@@ -28,13 +30,17 @@
         </li>
       </ul>
     </nav>
-    <!-- logo blocck -->
+    <!-- end of navigation block -->
+
+    <!-- logo block -->
     <a clas="header__logo">
       <img 
         class="header__logo-image" 
         src="./images/logo-black.svg" 
         alt="логотип оно тебе надо">
     </a>
+    <!-- end of logo block -->
+
     <!-- adress block -->
     <address class="address header__address">
       <a href="tel:+9 999 555 5555">+9 999 555 5555</a>
@@ -42,22 +48,42 @@
       <a href="info@sobaka.ge">info@sobaka.ge</a>
       <p>наб. Принсенграхт 263- 265, Амстердам</p>
     </address>
+    <!-- end of adress block -->
+
   </header>
+  <!-- end of header block -->
 
+  <!-- main block -->
   <main>
-    
+    <!-- cover block -->
     <section class="cover">
-      <h1>
-        <span>оно</span>
-        <span>тебе</span>
-        <span>надо</span>
-      </h1>
-      <div class="description">
-        <p>Аукцион вещей, вкоторые никто не верил</p>
-        <button>Сделать ставку</button>
-      </div>
-    </section>
+      <div class="overlay"></div>
 
+      <!-- cover title block -->
+      <h1 class="cover__title">
+        <span class="aligned-text">
+          <span class="letter-spacing-extended">оно</span>
+        </span>
+        <span class="aligned-text aligned-text_center">
+          <span class="letter-spacing-extended">теб<span class="no-letter-spacing">е</span></span>
+        </span>
+        <span class="aligned-text aligned-text_right">
+          <span class="letter-spacing-extended">над<span class="no-letter-spacing">о</span></span>
+        </span>
+      </h1>
+      <!-- end of cover title block -->
+
+      <!-- cover description block -->
+      <div class="cover__description">
+        <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
+        <button class="bet-button">Сделать ставку</button>
+      </div>
+      <!-- end of cover description block -->
+
+    </section>
+    <!-- end of cover block -->
+
+    <!-- lots block -->
     <section class="lots">
       <h2>Лоты</h2>
       <ul>
