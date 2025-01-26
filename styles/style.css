@@ -28,7 +28,7 @@ html {
   line-height: 1.2;
 }
 
-.header__links-list-item:first-child {
+.header__links-list-item_no-bullit {
   list-style-type: none;
 }
 
@@ -224,6 +224,7 @@ html {
   font-size: 20px;
   font-weight: 400;
   line-height: 1.15;
+  text-underline-offset: 4px;
 }
 /* end of the lots styles */
 
@@ -273,11 +274,51 @@ html {
   font-weight: 400;
   line-height: 1.2;
 }
-
-
 /* end of the about styles */
 
+/* start of the footer styles */
 .footer {
-  background-color: crimson;
+  display: flex;
+  justify-content: space-between;
   padding: 0 50px 82px;
+
 }
+
+.footer__menu-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  align-items: center;
+}
+
+.footer__menu-list-item {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+.footer__menu-link {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+  list-style-type: none;
+}
+
+.footer__social-list-item {
+  width: 48px;
+}
+
+.footer__social-icon {
+  display: block;
+}
+/* end of the footer styles */
