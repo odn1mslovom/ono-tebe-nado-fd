@@ -2,9 +2,9 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./fonts/fonts.css">
   <link rel="stylesheet" href="./styles/global.css">
   <link rel="stylesheet" href="./styles/style.css">
@@ -22,17 +22,17 @@
           <a class="header__link header__link_active" href="#">главная</a>
         </li>
         <li class="header__links-list-item">
-          <a href="#lots">посмотреть лоты</a>
+          <a class="header__link" href="#lots">посмотреть лоты</a>
         </li>
         <li class="header__links-list-item">
-          <a href="#">об аукционе</a>
+          <a class="header__link" href="#about">об аукционе</a>
         </li>
       </ul>
     </nav>
     <!-- end of navigation block -->
 
     <!-- logo block -->
-    <a clas="header__logo">
+    <a class="header__logo">
       <img 
         class="header__logo-image" 
         src="./images/logo-black.svg" 
@@ -42,7 +42,7 @@
 
     <!-- adress block -->
     <address class="address header__address">
-      <a href="tel:+9 999 555 5555">+9 999 555 5555</a>
+      <a href="tel:+99995555555">+9 999 555 5555</a>
       <br>
       <a href="info@sobaka.ge">info@sobaka.ge</a>
       <p>наб. Принсенграхт 263- 265, Амстердам</p>
@@ -130,7 +130,7 @@
     <!-- end of lots block -->
 
     <!-- start the about section -->
-    <section class="about">
+    <section class="about" id="about">
       <div class="about__column">
         <div class="about__logo">
           <img class="about__logo-image" src="./images/logo-white.svg" alt="белый логотип оно тебе надо на черном фоне">
@@ -138,7 +138,7 @@
       </div>
       
       <div class="about__column">
-        <h3 class="about__title">Об аукционе</h3>
+        <h2 class="about__title">Об аукционе</h2>
         <p class="about__text">
           Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны
           были попасть ни&nbsp;на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может
@@ -160,7 +160,7 @@
   <footer class="footer">
     
     <address class="address">
-      <a href="tel:+9 999 555 5555">+9 999 555 5555</a>
+      <a href="tel:+99995555555">+9 999 555 5555</a>
       <br>
       <a href="info@sobaka.ge">info@sobaka.ge</a>
       <p>наб. Принсенграхт 263-265, Амстердам</p>
@@ -169,8 +169,8 @@
     <nav class="footer__menu">
       <ul class="footer__menu-list">
         <li class="footer__menu-list-item"><a class="footer__menu-link footer__menu-link_active" href="#">главная</a></li>
-        <li class="footer__menu-list-item"><a class="footer__menu-link" href="#">посмотреть лоты</a></li>
-        <li class="footer__menu-list-item"><a class="footer__menu-link" href="#">об аукционе</a></li>
+        <li class="footer__menu-list-item"><a class="footer__menu-link" href="#lots">посмотреть лоты</a></li>
+        <li class="footer__menu-list-item"><a class="footer__menu-link" href="#about">об аукционе</a></li>
       </ul>
     </nav>
 

@@ -10,13 +10,8 @@ html {
   padding: 92px 50px 96px;
 }
 
-.header__menu {
-  max-width: 390px;
-}
-
 .header__links-list {
   display: flex;
-  justify-content: space-between;
   gap: 32px;
   list-style-type: circle;
 }
